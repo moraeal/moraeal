@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>씨앗프로젝트 | 2분 시민 제안 공개 오디션</title>
+    <meta
+      name="description"
+      content="시민이 2분 제안 영상으로 생활 속 문제를 올리고, 동료 시민의 의견과 공감으로 시민 실험을 키우는 공개 오디션 플랫폼."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="씨앗프로젝트 홈">
+        <span class="brand-mark">S</span>
+        <span>
+          <strong>씨앗프로젝트</strong>
+          <small>2분 시민 제안 공개 오디션</small>
+        </span>
+      </a>
+      <nav class="nav-links" aria-label="주요 메뉴">
+        <a href="#how">제안 방식</a>
+        <a href="#studio">시민 오디션</a>
+        <a href="#stages">진행 방식</a>
+        <a href="#entry">영상 올리기</a>
+      </nav>
+      <a class="header-action" href="#entry">2분 제안 영상 올리기</a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Citizen Open Audition</p>
+          <h1>나도<br /><span class="nowrap">시민운동가</span></h1>
+          <p class="hero-subtitle">2분 영상으로 제안하는 씨앗프로젝트</p>
+          <p class="hero-text">
+            우리 주변에서 꼭 고쳐졌으면 하는 일을 2분 영상으로 제안해주세요.
+            동료 시민들이 함께 보고, 묻고, 공감하며 시민 실험으로 키워갑니다.
+          </p>
+          <p class="hero-emphasis">당신의 작은 제안은 세상을 바꾸는 첫 번째 씨앗이 될 수 있습니다.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#entry">2분 제안 영상 올리기</a>
+            <a class="button secondary" href="#studio">시민 오디션 보기</a>
+            <a class="button ghost" href="#stages">진행 방식 알아보기</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <img src="./youth-civic-voices-diverse.png" alt="서로 다른 얼굴과 스타일의 청년들이 시민운동에 참여하며 활짝 웃고 있는 모습" />
+          <aside class="audition-card">
+            <span class="live-badge">접수 중</span>
+            <h2>씨앗프로젝트</h2>
+            <p>우리 동네에서 꼭 고쳐졌으면 하는 일</p>
+            <div class="flow-line">
+              <span>제안 영상</span>
+              <span>시민 의견</span>
+              <span>1차 후보</span>
+              <span>2차 심사</span>
+              <span>3차 심사</span>
+              <span>시민 실험</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="how" class="section how-section">
+        <div class="section-heading">
+          <p class="eyebrow">How To Propose</p>
+          <h2>2분이면 충분합니다</h2>
+          <p>
+            씨앗프로젝트의 첫 제안은 긴 기획서가 아닙니다.
+            내가 발견한 문제, 왜 바뀌어야 하는지, 어떤 작은 실험을 해보고 싶은지를
+            2분 이내의 진심 어린 영상으로 설명하면 됩니다.
+          </p>
+        </div>
+        <div class="guide-grid">
+          <article>
+            <span>01</span>
+            <h3>무엇을 바꾸고 싶나요?</h3>
+            <p>생활 속에서 꼭 고쳐졌으면 하는 문제를 말해주세요.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>왜 문제라고 생각하나요?</h3>
+            <p>내가 겪은 경험, 주변 시민의 불편, 해결되지 않은 이유를 들려주세요.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>어떻게 해보고 싶나요?</h3>
+            <p>작게 시작할 수 있는 시민 실험 방법을 제안해주세요.</p>
+          </article>
+        </div>
+        <div class="notice-box">완벽한 영상은 필요 없습니다. 진심을 담은 2분이면 충분합니다.</div>
+      </section>
+
+      <section id="studio" class="section studio-section">
+        <div class="section-heading">
+          <p class="eyebrow">Civic Audition Studio</p>
+          <h2>시민 오디션 보기</h2>
+          <p>
+            제안 영상은 공개 페이지에 모이고, 동료 시민들이 공감, 질문, 의견, 응원, 함께하기를 남깁니다.
+            시민의 반응은 1차 후보를 고르는 중요한 기준이 됩니다.
+          </p>
+        </div>
+        <div class="video-grid" id="videoGrid"></div>
+      </section>
+
+      <section id="stages" class="section stages-section">
+        <div class="section-heading">
+          <p class="eyebrow">Three Stage Audition</p>
+          <h2>씨앗프로젝트는 3단계 시민 오디션으로 진행합니다</h2>
+          <p>
+            처음에는 문제 발견과 제안의 진정성을 보고, 다음에는 실행 가능성과 시민팀 구성을 살피며,
+            마지막에는 사회적 공익성과 확산 가능성을 함께 평가합니다.
+          </p>
+        </div>
+        <div class="stage-grid">
+          <article class="stage-card">
+            <span>1차 오디션</span>
+            <h3>문제와 제안</h3>
+            <strong>무엇을 하려 하나요? 무엇이 문제인가요?</strong>
+            <ul>
+              <li>생활 속 실제 문제에서 출발했는가</li>
+              <li>다른 시민도 공감할 수 있는가</li>
+              <li>작은 실험으로 시작할 가능성이 있는가</li>
+            </ul>
+            <p>시민 의견과 공감수를 바탕으로 후보 프로젝트를 선발합니다.</p>
+          </article>
+          <article class="stage-card">
+            <span>2차 오디션</span>
+            <h3>실행 방식과 시민팀</h3>
+            <strong>누가, 어떤 방식으로 진행할 수 있나요?</strong>
+            <ul>
+              <li>실행 주체가 분명한가</li>
+              <li>함께할 시민팀을 만들 수 있는가</li>
+              <li>예산과 활동 계획이 현실적인가</li>
+            </ul>
+            <p>실행 가능성이 높은 프로젝트를 3차 오디션 후보로 선발합니다.</p>
+          </article>
+          <article class="stage-card">
+            <span>3차 오디션</span>
+            <h3>공익성과 사회적 임팩트</h3>
+            <strong>우리 사회에 어떤 공익을 만들 수 있나요?</strong>
+            <ul>
+              <li>개인 이익을 넘어 공공성이 있는가</li>
+              <li>약자, 안전, 돌봄, 환경 등 공익 가치와 연결되는가</li>
+              <li>다른 지역과 시민에게 확산될 수 있는가</li>
+            </ul>
+            <p>최종 시민 실험 프로젝트를 선정하고 씨앗시민기금으로 활동을 지원합니다.</p>
+          </article>
+        </div>
+        <div class="notice-box dark">
+          단계가 올라갈수록 기준은 치열해지지만 목적은 탈락이 아닙니다.
+          모든 제안은 다음 시민 실험을 싹우는 씨앗입니다.
+        </div>
+      </section>
+
+      <section class="section vote-section">
+        <div class="section-heading">
+          <p class="eyebrow">Citizen Review</p>
+          <h2>심사는 시민들이 함께합니다</h2>
+          <p>
+            씨앗프로젝트는 전문가 몇 사람이 시민 제안을 재단하는 방식이 아닙니다.
+            제안 영상을 본 시민들이 공감하고, 질문하고, 의견을 남기며 더 나은 실험이 되도록 함께 세웁니다.
+          </p>
+        </div>
+        <div class="vote-grid">
+          <article><strong>공감하기</strong><span>좋은 제안이라고 생각하면 공감으로 응원합니다.</span></article>
+          <article><strong>질문하기</strong><span>더 묻고 싶은 점, 보완이 필요한 점을 질문합니다.</span></article>
+          <article><strong>의견 남기기</strong><span>내 경험이나 다른 해결 방법을 함께 제안합니다.</span></article>
+          <article><strong>함께하기</strong><span>직접 참여하고 싶은 프로젝트의 동료 시민이 될 수 있습니다.</span></article>
+        </div>
+      </section>
+
+      <section id="entry" class="entry-section">
+        <div class="entry-copy">
+          <p class="eyebrow">Upload Your Proposal</p>
+          <h2>2분이면 충분합니다.<br />당신의 제안을 올려주세요.</h2>
+          <p>
+            생활 속에서 꼭 고쳐졌으면 하는 일이 있나요? 혼자 불평하고 지나쳤던 문제,
+            민원으로 끝내기 아까웠던 문제, 누군가와 함께 바꿔보고 싶었던 문제를 2분 영상으로 제안해주세요.
+          </p>
+        </div>
+        <form class="proposal-form" id="proposalForm">
+          <p class="form-note">영상은 2분 이내를 권장합니다. 현재 단계에서는 파일 선택 또는 영상 링크 입력만 지원합니다.</p>
+          <label>
+            이름 또는 닉네임
+            <input type="text" name="name" required placeholder="예: 골목지킴이" />
+          </label>
+          <label>
+            연락처 또는 이메일
+            <input type="text" name="contact" required placeholder="hello@example.com" />
+          </label>
+          <label>
+            제안 영상 제목
+            <input type="text" name="title" required placeholder="예: 동네 배달봉투 줄이기 프로젝트" />
+          </label>
+          <label>
+            영상 업로드 또는 영상 링크
+            <input type="text" name="video" placeholder="파일명 또는 영상 링크를 입력해주세요" />
+          </label>
+          <label class="full">
+            내가 발견한 문제
+            <textarea name="problem" rows="3" required placeholder="어떤 생활 문제가 있었나요?"></textarea>
+          </label>
+          <label class="full">
+            왜 이 문제가 바뀌어야 하나요?
+            <textarea name="reason" rows="3" placeholder="왜 시민들이 함께 봐야 하는 문제인지 적어주세요."></textarea>
+          </label>
+          <label class="full">
+            내가 생각하는 작은 실험 방법
+            <textarea name="experiment" rows="3" placeholder="작게 시작해볼 수 있는 방법을 적어주세요."></textarea>
+          </label>
+          <label class="full">
+            함께 필요한 동료 시민
+            <input type="text" name="teammates" placeholder="예: 디자이너, 동네 주민, 촬영 가능한 시민" />
+          </label>
+          <label class="full">
+            예상하는 작은 변화
+            <input type="text" name="impact" placeholder="예: 매일 버려지는 배달봉투를 함께 줄일 수 있어요" />
+          </label>
+          <label class="check full">
+            <input type="checkbox" name="public" required />
+            공개 페이지에 제안이 게시될 수 있음에 동의합니다.
+          </label>
+          <button type="submit">2분 제안 영상 올리기</button>
+          <div class="form-success" id="formSuccess" role="status">
+            제안 영상이 접수되었습니다. 씨앗 시민 파트너스가 기본 확인 후 시민 오디션 페이지에 공개하겠습니다.
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <div class="modal" id="videoModal" aria-hidden="true">
+      <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="modal-close" type="button" aria-label="닫기">닫기</button>
+        <div class="video-placeholder">2분 제안 영상</div>
+        <p class="modal-status" id="modalStatus"></p>
+        <h2 id="modalTitle"></h2>
+        <p id="modalOwner"></p>
+        <p id="modalProblem"></p>
+        <p id="modalExperiment"></p>
+        <div class="comments" id="modalComments"></div>
+        <label class="comment-box">
+          시민 의견 남기기
+          <textarea id="commentInput" rows="3" placeholder="질문, 응원, 보완 의견을 남겨주세요."></textarea>
+        </label>
+        <div class="modal-actions">
+          <button type="button" id="addComment">의견 등록</button>
+          <button type="button" id="likeProposal">공감하기</button>
+          <button type="button" id="joinProposal">함께하고 싶어요</button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <strong>씨앗프로젝트</strong>
+      <span>2분 시민 제안 공개 오디션</span>
+    </footer>
+
+    <script>
+      const proposals = [
+        {
+          area: "동네 환경",
+          status: "시민 의견 모집 중",
+          title: "동네 배달봉투 줄이기 프로젝트",
+          owner: "골목지킴이",
+          summary: "매일 쌓이는 배달봉투를 가게와 시민이 함께 줄이는 실험",
+          likes: 128,
+          comments: ["가게 참여 기준이 있으면 좋겠어요.", "우리 동네에서도 해보고 싶습니다."],
+          experiment: "참여 가게 스티커, 다회용 포장 선택 안내, 시민 인증 캠페인을 함께 운영합니다."
+        },
+        {
+          area: "마을 돌봄",
+          status: "접수 완료",
+          title: "방치된 폐가구를 마을 쉼터로",
+          owner: "마을작업반",
+          summary: "버려진 의자와 책상을 고쳐 작은 쉼터 문화를 만드는 실험",
+          likes: 96,
+          comments: ["수리 안전 기준이 필요해 보여요."],
+          experiment: "주민 수리 모임을 열고, 안전 점검을 거친 가구만 공용 공간에 배치합니다."
+        },
+        {
+          area: "주거 환경",
+          status: "1차 후보",
+          title: "입주민 주거환경 개선 프로젝트",
+          owner: "오늘의손",
+          summary: "혼자 사는 이웃의 생활공간을 시민들이 함께 살피는 프로젝트",
+          likes: 174,
+          comments: ["개인정보 보호 방식이 중요할 것 같아요."],
+          experiment: "신청 기반 방문 체크리스트와 동네 생활수리 자원 연결을 실험합니다."
+        },
+        {
+          area: "생활 안전",
+          status: "2차 진출",
+          title: "위험한 골목길 시민지도 만들기",
+          owner: "안전산책",
+          summary: "아이와 보행자가 위험한 길을 시민들이 직접 기록하는 프로젝트",
+          likes: 211,
+          comments: ["학교 주변부터 시작하면 좋겠어요.", "야간 조도 데이터도 있으면 좋겠습니다."],
+          experiment: "지도 기록 워크숍과 야간 현장 점검으로 개선 요청 자료를 만듭니다."
+        },
+        {
+          area: "공동주거",
+          status: "시민 의견 모집 중",
+          title: "아파트 경비노동자 쉼터 개선 프로젝트",
+          owner: "우리동네입주민",
+          summary: "생활공간 안의 보이지 않는 노동환경을 함께 바꾸는 실험",
+          likes: 142,
+          comments: ["입주민 설명 자료가 필요합니다."],
+          experiment: "입주민 인터뷰, 휴게공간 체크리스트, 관리사무소 협의안을 만듭니다."
+        },
+        {
+          area: "생활 정보",
+          status: "접수 완료",
+          title: "어려운 보험 약관 쉬운 설명 프로젝트",
+          owner: "생활브리핑",
+          summary: "어려운 약관과 보상 기준을 시민 언어로 쉽게 설명하는 프로젝트",
+          likes: 88,
+          comments: ["청년, 노년층 버전이 따로 있으면 좋겠어요."],
+          experiment: "자주 묻는 사례를 카드뉴스와 짧은 설명 영상으로 바꿔 공개합니다."
+        }
+      ];
+
+      const grid = document.querySelector("#videoGrid");
+      const modal = document.querySelector("#videoModal");
+      const modalTitle = document.querySelector("#modalTitle");
+      const modalOwner = document.querySelector("#modalOwner");
+      const modalStatus = document.querySelector("#modalStatus");
+      const modalProblem = document.querySelector("#modalProblem");
+      const modalExperiment = document.querySelector("#modalExperiment");
+      const modalComments = document.querySelector("#modalComments");
+      const commentInput = document.querySelector("#commentInput");
+      let activeIndex = 0;
+
+      function renderCards() {
+        grid.innerHTML = proposals.map((item, index) => `
+          <article class="video-card">
+            <div class="thumb"><span>${item.area}</span><strong>2:00</strong></div>
+            <div class="video-body">
+              <span class="status">${item.status}</span>
+              <h3>${item.title}</h3>
+              <p class="owner">제안자 ${item.owner}</p>
+              <p>${item.summary}</p>
+              <div class="metrics">
+                <span>공감 ${item.likes}</span>
+                <span>의견 ${item.comments.length}</span>
+              </div>
+              <div class="card-actions">
+                <button type="button" data-open="${index}">제안 영상 보기</button>
+                <button type="button" data-comment="${index}">시민의견 남기기</button>
+                <button type="button" data-join="${index}">함께하고 싶어요</button>
+              </div>
+            </div>
+          </article>
+        `).join("");
+      }
+
+      function openModal(index) {
+        activeIndex = index;
+        const item = proposals[index];
+        modalTitle.textContent = item.title;
+        modalOwner.textContent = `제안자 ${item.owner} · ${item.area}`;
+        modalStatus.textContent = item.status;
+        modalProblem.textContent = item.summary;
+        modalExperiment.textContent = item.experiment;
+        modalComments.innerHTML = item.comments.map(comment => `<p>${comment}</p>`).join("");
+        commentInput.value = "";
+        modal.setAttribute("aria-hidden", "false");
+      }
+
+      renderCards();
+
+      grid.addEventListener("click", (event) => {
+        const openIndex = event.target.dataset.open ?? event.target.dataset.comment ?? event.target.dataset.join;
+        if (openIndex !== undefined) openModal(Number(openIndex));
+      });
+
+      document.querySelector(".modal-close").addEventListener("click", () => {
+        modal.setAttribute("aria-hidden", "true");
+      });
+
+      document.querySelector("#addComment").addEventListener("click", () => {
+        const value = commentInput.value.trim();
+        if (!value) return;
+        proposals[activeIndex].comments.push(value);
+        console.log("시민 의견 등록", { proposal: proposals[activeIndex].title, comment: value });
+        openModal(activeIndex);
+        renderCards();
+      });
+
+      document.querySelector("#likeProposal").addEventListener("click", () => {
+        proposals[activeIndex].likes += 1;
+        console.log("공감하기", proposals[activeIndex].title);
+        renderCards();
+      });
+
+      document.querySelector("#joinProposal").addEventListener("click", () => {
+        console.log("함께하고 싶어요", proposals[activeIndex].title);
+      });
+
+      document.querySelector("#proposalForm").addEventListener("submit", (event) => {
+        event.preventDefault();
+        const data = Object.fromEntries(new FormData(event.currentTarget).entries());
+        console.log("2분 제안 영상 접수", data);
+        document.querySelector("#formSuccess").classList.add("visible");
+        event.currentTarget.reset();
+      });
+    </script>
+  </body>
+</html>

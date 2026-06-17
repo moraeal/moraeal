@@ -1,0 +1,34 @@
+=== GitHub push attempt === 
+Date: 2026-06-17 15:19:13.62 
+ 
+=== git status === 
+fatal: detected dubious ownership in repository at 'C:/Users/morae/Documents/Codex/2026-06-16/1-2-3-4-5-6/work/moraeal-repo-20260617'
+'C:/Users/morae/Documents/Codex/2026-06-16/1-2-3-4-5-6/work/moraeal-repo-20260617' is owned by:
+	moraeal/CodexSandboxOffline (S-1-5-21-2448997445-1336711936-3418317993-1005)
+but the current user is:
+	MORAEAL/morae (S-1-5-21-2448997445-1336711936-3418317993-1001)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/Users/morae/Documents/Codex/2026-06-16/1-2-3-4-5-6/work/moraeal-repo-20260617
+ 
+=== git remote === 
+fatal: detected dubious ownership in repository at 'C:/Users/morae/Documents/Codex/2026-06-16/1-2-3-4-5-6/work/moraeal-repo-20260617'
+'C:/Users/morae/Documents/Codex/2026-06-16/1-2-3-4-5-6/work/moraeal-repo-20260617' is owned by:
+	moraeal/CodexSandboxOffline (S-1-5-21-2448997445-1336711936-3418317993-1005)
+but the current user is:
+	MORAEAL/morae (S-1-5-21-2448997445-1336711936-3418317993-1001)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/Users/morae/Documents/Codex/2026-06-16/1-2-3-4-5-6/work/moraeal-repo-20260617
+ 
+=== git push === 
+fatal: detected dubious ownership in repository at 'C:/Users/morae/Documents/Codex/2026-06-16/1-2-3-4-5-6/work/moraeal-repo-20260617'
+'C:/Users/morae/Documents/Codex/2026-06-16/1-2-3-4-5-6/work/moraeal-repo-20260617' is owned by:
+	moraeal/CodexSandboxOffline (S-1-5-21-2448997445-1336711936-3418317993-1005)
+but the current user is:
+	MORAEAL/morae (S-1-5-21-2448997445-1336711936-3418317993-1001)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/Users/morae/Documents/Codex/2026-06-16/1-2-3-4-5-6/work/moraeal-repo-20260617
+ 
+=== done === 
