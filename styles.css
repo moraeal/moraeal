@@ -94,6 +94,39 @@ textarea {
   font-weight: 850;
 }
 
+.header-tools {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.language-switcher {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  padding: 4px;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+}
+
+.language-option {
+  min-height: 34px;
+  padding: 0 12px;
+  color: var(--muted);
+  background: transparent;
+  border: 0;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 950;
+  cursor: pointer;
+}
+
+.language-option.active {
+  color: var(--ivory);
+  background: var(--navy);
+}
+
 .header-action,
 .button,
 .proposal-form button,
@@ -143,6 +176,12 @@ textarea {
     radial-gradient(circle at 78% 12%, rgba(199, 230, 106, 0.22), transparent 30%),
     radial-gradient(circle at 22% 84%, rgba(255, 118, 95, 0.22), transparent 28%),
     linear-gradient(135deg, var(--navy-2), var(--navy) 52%, var(--green));
+}
+
+.hero-copy,
+.hero-visual,
+.entry-copy {
+  min-width: 0;
 }
 
 .eyebrow {
@@ -738,6 +777,20 @@ textarea {
     display: none;
   }
 
+  .header-tools {
+    margin-left: auto;
+  }
+
+  .language-switcher {
+    min-height: 38px;
+  }
+
+  .language-option {
+    min-height: 30px;
+    padding-inline: 10px;
+    font-size: 12px;
+  }
+
   .nav-links {
     gap: 18px;
     font-size: 14px;
@@ -753,8 +806,13 @@ textarea {
     font-size: 62px;
   }
 
+  .nowrap {
+    white-space: normal;
+  }
+
   .hero-subtitle {
     font-size: 21px;
+    white-space: normal;
   }
 
   .hero-actions,
