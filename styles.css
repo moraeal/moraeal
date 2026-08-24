@@ -253,10 +253,12 @@ h1 {
 }
 
 .hero-visual img {
+  position: relative;
+  z-index: 1;
   display: block;
   width: 100%;
-  height: min(75vh, 760px);
-  min-height: 560px;
+  height: clamp(420px, 52vh, 560px);
+  min-height: 0;
   object-fit: cover;
   object-position: center top;
   border: 1px solid rgba(255, 247, 230, 0.28);
@@ -266,6 +268,7 @@ h1 {
 
 .audition-card {
   position: static;
+  z-index: 2;
   width: 100%;
   padding: 22px;
   color: var(--ink);
@@ -821,7 +824,7 @@ textarea {
   }
 
   .hero-visual img {
-    height: 450px;
+    height: 380px;
     min-height: 0;
   }
 
